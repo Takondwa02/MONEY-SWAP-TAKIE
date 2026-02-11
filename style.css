@@ -348,14 +348,14 @@ footer {
 }
 
 /* Phones */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .whatsapp {
     right: 24%;
     transform: translateX(100%);
   }
 } 
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .whatsapp:hover {
     transform: translateX(100%) scale(1.05);
   }
