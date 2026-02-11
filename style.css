@@ -350,7 +350,7 @@ footer {
 /* Phones */
 @media (max-width: 480px) {
   .whatsapp {
-    right: 24%;
+    right: 30%;
     transform: translateX(100%);
   }
 } 
@@ -361,40 +361,24 @@ footer {
   }
 }
 
-/* ================= RESPONSIVE ADJUSTMENTS ================= */
+@media (max-width: 480px) {
+.hero {
+  min-height: clamp(70vh, 85vh, 95vh);  /* 70vh on small phones, up to 95vh on desktop */
+  padding-top: clamp(70px, 12vw, 100px);
+ }
 
-/* Tablets */
-/* @media (max-width: 900px) {
-  .hero {
-    min-height: 95vh; grow hero slightly */
-  /* }
+.contact{
+    padding: 250px;
+}
 
-  .hero::after {
-    bottom: -260px;
-    width: 180%;
-    height: 430px;
-  }
+.contact h2 {
+    font-size: clamp(20px, 5vw, 36px);
+}
 
-  .container .card:first-child {
-    margin-top: -340px;
-    transform: translateY(-65px);
-  }
-} */
+.contact p{
+    font-size: clamp(12px, 3vw, 18px);
+}
+ 
+}
 
-/* Phones */
-/* @media (max-width: 600px) {
-  .hero {
-    min-height: 120vh; grow hero more */
-  /* }
 
-  .hero::after {
-    bottom: -300px;
-    width: 210%;
-    height: 500px;
-  }
-
-  .container .card:first-child {
-    margin-top: -380px;
-    transform: translateY(-85px);
-  }
-} */
