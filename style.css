@@ -368,15 +368,15 @@ footer {
  }
 
 .contact{
-    padding: 250px;
+    padding: 350px;
 }
 
 .contact h2 {
-    font-size: clamp(20px, 5vw, 36px);
+    font-size: clamp(18px, 5vw, 30px);
 }
 
 .contact p{
-    font-size: clamp(12px, 3vw, 18px);
+    font-size: clamp(10px, 3vw, 16px);
 }
  
 }
