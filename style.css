@@ -367,15 +367,15 @@ footer {
   padding-top: clamp(70px, 12vw, 100px);
  }
 
-.contact{
+#contact{
     padding: 400px 5%;
 }
 
-.contact h2 {
+#contact h2 {
     font-size: clamp(16px, 4vw, 30px);
 }
 
-.contact p{
+#contact p{
     font-size: clamp(10px, 3vw, 16px);
 }
  
